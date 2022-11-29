@@ -30,6 +30,7 @@ const AddMovie = ({ add }) => {
   const handleAdd = () => {
     let newMovies = { Title, NoteImbd, Years, Poster }
     add(newMovies)
+    handleClose()
   }
 
   return (
